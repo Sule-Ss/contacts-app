@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 30%;
+    /* height: 60vh; */
+    background-color: rgb(147, 198, 243);
+    padding: 20px;
+    box-shadow: 5px 5px rgb(12, 12, 122), 10px 10px rgb(48, 48, 169), 15px 15px rgb(114, 114, 185);
+}
+
+@media screen and (max-width: 900px) {
+    #container {
+        width: 100vw;
+        height: 100vh;
+        padding-top: 40vw;
+    }
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 0.5rem 0;
+    height: 2rem;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+ul,
+li {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list>li {
+    background-color: lightcyan;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phoneClass {
+    background-color: rgb(243, 216, 238);
+    height: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+
+.btn button {
+    padding: 5px;
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(243, 216, 238);
+    border: none;
+    color: darkblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    width: 5.5rem;
+    font-weight: bold;
+}
